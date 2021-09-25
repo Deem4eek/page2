@@ -136,6 +136,7 @@ body{
 	font-size: 30px;
 	line-height: 37px;
 	margin-top: 20px;
+	color: #533738;
 }
 .image-arr{
 	margin-left: 10px;
@@ -173,6 +174,7 @@ body{
 .end-item{
 	display: flex;
 	text-align: center;
+	justify-content: space-between;
 }
 .team-item-end{
 	max-width: 285px;
@@ -194,4 +196,41 @@ body{
 .item-numder-text{
 	font-size: 18px;
 	line-height: 30px;
+}
+.reviews{
+	margin-top: 103px;
+}
+.reviews-head{
+	text-align: center;
+	font-size: 40px;
+	line-height: 50px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.reviews-block{
+	max-width: 1036px;
+	display: flex;
+}
+.review-arr{
+	width: 72px;
+    height: 72px;
+    background: #533738;
+    text-align: center;
+    padding-top: 27px;
+    border-radius: 50%;
+}
+.review-textBlock{
+	max-width: 407px;
+	margin-right: 21px;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	margin-left: 28px;
+}
+.review-image{
+	margin: 0;
+	max-width: 407px;
+}
+.review-imageTop{
+	margin-bottom: 24px;
 }
